@@ -17,9 +17,6 @@ public class Ex06 {
 
 		}
 		
-		
-		
-		
 	}
 
 }

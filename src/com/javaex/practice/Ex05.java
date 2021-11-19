@@ -9,14 +9,14 @@ public class Ex05 {
 		Scanner sc = new Scanner(System.in);
 		
 		int[] num = new int[5];
-		float ball = 0f;
+		float container = 0f;
 		
 		for(int i = 0; i<5; i++) {
 			num[i] = sc.nextInt();
-			ball = ball+num[i];
+			container = container+num[i];
 		}
 		
-		System.out.println("평균은 "+(ball/5)+" 입니다.");
+		System.out.println("평균은 "+(container/5)+" 입니다.");
 
 		sc.close();
 	}

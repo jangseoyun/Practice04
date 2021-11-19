@@ -7,13 +7,17 @@ public class Ex08 {
 		
 		int[] intArray = new int[6];
 		
-		for(int i = 0; i<6; i++) {
+		for(int i = 0; i<intArray.length; i++) {
 			intArray[i] = ((int)(Math.random()*45))+1;
+			if(intArray[i]==intArray[i]) {
+				continue;
+			}
 		}
-		
-		
-		for(int i = 0; i<6; i++) {	
-			System.out.println(intArray[i]);
+
+		for(int i = 0; i<intArray.length; i++) {	
+			
+				System.out.println(intArray[i]);
+
 		}
 
 	}
